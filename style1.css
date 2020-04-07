@@ -1,0 +1,106 @@
+body {
+    background-color: lavender;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(230, 213, 213);
+}
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(banner-1571858_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 42px;
+    color: lightslategray;
+    border-radius: 10px;
+    overflow: hidden;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: inner 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    font-size: 70px;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    font-size: 40px;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+h4 {
+    font-size: 35px;
+    opacity: 0.2;
+    transition: opacity 0.5s;
+    float: left;
+}
+h4:hover {
+    opacity: 1;
+}
+img {
+    filter: blur(1px);
+    transition: filter 1s;
+}
+img:hover {
+    filter: blur(0px);
+}
+div.container {
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+    border:  1px solid white;
+    border-radius: 10px;
+    background-color: rgb(132, 202, 200);
+    
+}
+div {
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    margin: 20px 10px 40px 10px;
+
+}
+div.book {
+    background-color: rgb(142, 212, 207);
+    padding: 50px;
+    margin: 0 700px 30px 700px;  
+    border-radius: 1400px;
+}
+section {
+    overflow: auto;
+    clear: both;
+}
+div.sidebar {
+    float: left;
+    width: 20%;
+}
+div.content {
+    float: left;
+    width: 50%;
+}
+div.comments {
+    float: right;
+    width: 30%;
+
+}
+footer {
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    background-color: rgb(142, 212, 207);
+    transition: all 2s;
+    padding: 50px 0 50px 0;
+    margin: 10px 330px 0 330px;
+    border-radius: 1400px;
+}
+a {
+    color: rgb(230, 189, 189);
+    text-decoration: none;   
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s;
+}
+a:hover {
+    color:black;
+    border-bottom: 2px solid black;
+}
+footer:hover {
+    background-color: rgb(197, 236, 203);
+}
